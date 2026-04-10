@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "feedback-synthesis-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Customer feedback intelligence MCP — synthesize GitHub Issues, HN, and App Store reviews into ranked pain clusters. Pay-per-call via x402 micropayments."
 readme = "README.md"
 requires-python = ">=3.11"
