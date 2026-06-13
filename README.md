@@ -174,8 +174,33 @@ Hosted Backend (Railway)
 
 Server code is private (moat). Thin client is open source.
 
+
+## Direct MCP over HTTP (Streamable HTTP Transport)
+
+Skip the PyPI package for programmatic/agent access using the hosted MCP endpoint directly:
+
+**MCP Server URL**: `https://feedback-synthesis-mcp-production.up.railway.app/mcp/`
+
+For MCP clients that support Streamable HTTP transport (Claude Desktop via HTTP, custom agents):
+
+```json
+{
+  "mcpServers": {
+    "feedback-synthesis-mcp": {
+      "type": "streamable-http",
+      "url": "https://feedback-synthesis-mcp-production.up.railway.app/mcp/"
+    }
+  }
+}
+```
+
+x402 payment is handled automatically by the client SDK. Set `EVM_PRIVATE_KEY` in your environment.
+
+---
+
 ---
 
 ## License
 
 MIT
+
