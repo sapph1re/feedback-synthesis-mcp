@@ -1,5 +1,7 @@
 # Feedback Synthesis MCP
 
+[![MCP.Directory](https://img.shields.io/badge/MCP.Directory-listed-blue)](https://mcp.directory/servers?q=feedback-synthesis-mcp)
+
 > Customer feedback intelligence for AI agents and developers. Synthesize GitHub Issues, Hacker News threads, and App Store reviews into ranked pain clusters with evidence links. Pay-per-call via x402 micropayments — no signup required.
 
 <!-- mcp-name: io.github.sapph1re/feedback-synthesis-mcp -->
