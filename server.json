@@ -1,13 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.sapph1re/feedback-synthesis-mcp",
-  "title": "Feedback Synthesis MCP",
   "description": "Synthesize GitHub Issues, HN and App Store reviews into ranked pain clusters. Pay-per-call x402.",
+  "title": "Feedback Synthesis MCP",
   "repository": {
     "url": "https://github.com/sapph1re/feedback-synthesis-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "pypi",
@@ -25,6 +25,12 @@
           "name": "EVM_PRIVATE_KEY"
         }
       ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://feedback-synthesis-mcp-production.up.railway.app/mcp"
     }
   ]
 }
